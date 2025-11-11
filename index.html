@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple CRUD - Task Manager</title>
+</head>
+<body>
+    <h1>Task Manager</h1>
+
+    <div>
+        <input type="text" id="taskInput" placeholder="Add a new task..." />
+        <button>Add</button>
+    </div>
+
+    <h2>Tasks</h2>
+    <ul id="taskList">
+        <li>
+            <input type="checkbox" />
+            <span>Sample Task 1</span>
+            <button>Edit</button>
+            <button>Delete</button>
+        </li>
+        <li>
+            <input type="checkbox" />
+            <span>Sample Task 2</span>
+            <button>Edit</button>
+            <button>Delete</button>
+        </li>
+    </ul>
+
+    <h2>Statistics</h2>
+    <div>
+        <p>Total Tasks: <span id="totalCount">0</span></p>
+        <p>Completed: <span id="completedCount">0</span></p>
+        <p>Pending: <span id="pendingCount">0</span></p>
+    </div>
+</body>
+</html>
